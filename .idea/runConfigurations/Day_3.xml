@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Day 3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" singleton="false" show_console_on_std_err="false" show_console_on_std_out="false">
+    <parameters>
+      <option name="additionalArguments">
+        <list />
+      </option>
+      <option name="backtraceMode" value="2" />
+      <option name="channel" value="0" />
+      <option name="command" value="run" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="nocapture" value="true" />
+    </parameters>
+    <module name="day3">
+      <option name="moduleName" value="day3" />
+    </module>
+    <method />
+  </configuration>
+</component>

@@ -1,0 +1,8 @@
+[package]
+name = "day3"
+version = "0.1.0"
+authors = ["Marcel Schnelle <aurae@web.de>"]
+
+[dependencies]
+common = { path = "../common" }
+permutohedron = "0.2.2"
