@@ -1,6 +1,8 @@
-use std::fs::File;
-use std::io::Read;
+extern crate common;
+
 use std::iter::Iterator;
+
+use common::files::read;
 
 // http://adventofcode.com/2016/day/1
 
@@ -99,12 +101,9 @@ fn walk(position: Position, instruction: &str) -> Position {
 }
 
 fn main() {
-	// Read inputs & prepare content for parsing
-	let mut file = File::open("assets/input.txt").unwrap();
-	let mut content = String::new();
-	file.read_to_string(&mut content).unwrap();
-
+	// Read inputs & prepare content for parsing:
 	// Cut off commas & split into list (elements e.g. "R2", "L8")
+    let mut content = read("assets/input.txt");
 	content = content.replace(",", "");
 	let tokens: Vec<&str> = content.split_whitespace().collect();
 
