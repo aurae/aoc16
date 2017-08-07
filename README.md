@@ -1,1 +1,1 @@
-# aoc16-rust
+# aoc16
