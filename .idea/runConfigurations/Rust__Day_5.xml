@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Day 5" type="CargoCommandRunConfiguration" factoryName="Cargo Command" singleton="false" show_console_on_std_err="false" show_console_on_std_out="false">
+  <configuration default="false" name="Rust: Day 5" type="CargoCommandRunConfiguration" factoryName="Cargo Command" singleton="false" show_console_on_std_err="false" show_console_on_std_out="false">
     <parameters>
       <option name="additionalArguments">
         <list />
